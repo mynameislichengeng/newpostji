@@ -16,15 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <receiver
-                android:name=".MyBroadcastReceiver1"
-                android:enabled="true"
-                android:exported="true">
-            <intent-filter android:priority="4">
-                <action
-                        android:name="com.nar_unified_api.ACTION_APPLY_BEFORE_TRANSACTION"/>
-            </intent-filter>
-        </receiver>
 
         <receiver
                 android:name=".MyBroadcastReceiver2"
@@ -36,20 +27,9 @@
         </receiver>
 
         <receiver
-                android:name=".MyBroadcastReceiver3"
+                android:name=".RegisterResponseReceiver"
                 android:enabled="true"
                 android:exported="true">
-            <intent-filter android:priority="4">
-                <action android:name="com.nar_unified_api.ACTION_APPLY_E_RECEIPT"/>
-            </intent-filter>
-        </receiver>
-        <receiver
-                android:name=".MyBroadcastReceiver4"
-                android:enabled="true"
-                android:exported="true">
-            <intent-filter android:priority="4">
-                <action android:name="com.nar_unified_api.ACTION_APPLY_AFTER_TXN"/>
-            </intent-filter>
         </receiver>
 
     </application>

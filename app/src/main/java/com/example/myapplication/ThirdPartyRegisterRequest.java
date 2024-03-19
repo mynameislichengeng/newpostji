@@ -14,6 +14,8 @@ public class ThirdPartyRegisterRequest {
 
     private String thirdPartyReceiver;
 
+    private String registerResponseReceiver;
+
     private String thirdPartyAction;
 
     private String buttonTextEn;
@@ -92,5 +94,13 @@ public class ThirdPartyRegisterRequest {
 
     public void setButtonTextSp(String buttonTextSp) {
         this.buttonTextSp = buttonTextSp;
+    }
+
+    public String getRegisterResponseReceiver() {
+        return registerResponseReceiver;
+    }
+
+    public void setRegisterResponseReceiver(String registerResponseReceiver) {
+        this.registerResponseReceiver = registerResponseReceiver;
     }
 }

@@ -7,8 +7,6 @@ import android.util.Log;
 
 public class MyBroadcastReceiver2 extends BroadcastReceiver {
 
-
-
     @Override
     public void onReceive(Context context, Intent intent) {
         Log.d("tagtagtag", "MyBroadcastReceiver2");
